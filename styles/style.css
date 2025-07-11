@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.navbar, .banner{
+    background-image: url('Hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.logo{
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+}
+
+    .signup-btn{
+        background-color: #4e4eff;
+        color:white ;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .banner{
+        text-align: center;
+        padding: 100px 20px;
+    }
+    .heading{
+        font-size: 36px;
+        color: black;
+        margin-bottom: 30px;
+    }
+    .focus-btn{
+        background-color: blue;
+        color: white;
+        padding: 12px 25px;
+        font-size: 16px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        
+        
+    }
+.action-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+}
+.action{
+    max-width: 50%;
+}
+.action h2{
+font-size: 20px;
+color: black;
+margin-bottom: 15px;
+}
+.action p{
+    color: darkgray;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.preview-btn{
+    background-color: #4e4eff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.action-image{
+    max-width: 50%;
+}
+.action-image img{
+    width: 100%;
+    border-radius: 20px;
+}
+.preview-sec{
+    background-color: #eaeaff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 60px 30px;
+    margin: 80px 50px;
+    
+}
+.preview-sec h2{
+font-size: 24px;
+font-weight: bold;
+color: #111;
+margin-bottom: 40px;
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.sec-box h3{
+    font-size: 32px;
+    color: #4e4eff;
+    margin-bottom: 10px;
+}
+.sec-box p{
+    font-size: 10px;
+    color: #666;
+}
+
+.sec-box{
+    font-size: 32px;
+    color: #4e4eff;
+    margin-bottom: 10px;
+}
+.review section{
+    background-color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+.review  h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #1d1d1f;
+    text-align: center;
+}
+.review-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.review-card{
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+.stars{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+
+}
+.reviewer img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.reviewer .date{
+    font-size: 12px;
+    color: gray;
+}
+.info{
+    background-color:whitesmoke;
+    padding: 40px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.info h2{
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    min-width: 200px;
+}
+.info form{
+    display: flex;
+    min-width: 300px;
+    flex-direction: column;
+    gap: 12px;
+}
+.info input textarea{
+    padding: 10px;
+    font-size: 14px;
+    border: 1x solid black;
+    border-radius: 6px;
+}
+.info button{
+    padding: 12px;
+    background-color: #4e4eff;
+    color: #eaeaff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #4338ca;
+    transform: scale(1.05) ;
+}
+.footer{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 40px 20px;
+}
+h2{
+    font-size: 48px;
+    color: #4e4eff;
+    margin: 0;
+}
+p{
+    max-width: 600px;
+    margin: 20px auto;
+    color:gray;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.nav{
+    margin-top: 20px;
+}
+.nav a{
+    text-decoration:none ;
+    color: gray;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.nav a:hover{
+    color: #4f46e5;
+}
